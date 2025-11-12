@@ -1,0 +1,170 @@
+/**TIPOGRAFIA**/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: var(--color-bg);
+    color: var(--color-text-main);
+    line-height: 1.6;
+  }
+
+/**NAVBAR**/
+
+#navbar {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#navbar #logo img {
+    width: 150px;
+    border-radius: 25%;
+}
+
+.cta-buttom {
+    background-color: rgb(255, 178, 149);
+    color: orangered;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+
+/**HERO IMAGE**/
+
+#hero-4 {
+    background-image: url("../img/1.\ Portada.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-4 .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+#hero-4 h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+
+#hero-4 h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+#hero-4 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--color-accent-light);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    margin-top: 2rem;
+  }
+
+/*HOME PAGE*/
+
+#card-welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 5%;
+  }
+  
+#card-welcome h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+#card-welcome p {
+    font-size: 1em;
+    color: #444;
+    line-height: 1.5;
+    width: 60%;
+  }
+  
+#card-welcome img {
+    width: 30%;
+    border-radius: 25%;
+  }
+
+#content-home {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0px auto;
+  }
+
+#cta-card-home {
+    background-color: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+  }
+
+#cta-home {
+    margin: 0px 50px;
+  }
+
+  /*** DOWNLOAD PAGE ***/
+
+  .download-buttons {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.download-buttons .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.download-buttons img {
+  transition: transform 0.2s ease;
+}
+
+.download-buttons img:hover {
+  transform: scale(1.05);
+}
