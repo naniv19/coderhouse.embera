@@ -4,26 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download Embera</title>
+    <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- CSS -->
     <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
-    <div id="navbar">
-        <a href="/index.html" id="logo">
-            <img src="../img/icon.jpeg" alt="logo">
-        </a>
-        <div>
-            <a href="/pages/about-us.html">About Us</a>
-            <a href="/pages/features.html">Features</a>
-            <a href="/pages/contact.html">Contacto</a>
-        </div>
-        <a href="#" class="cta-buttom">Descarga Embera</a>
-    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-propia">
+            <div class="container-fluid">
+                <a href="../index.html" id="logo">
+                    <img src="../img/icon.jpeg" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../pages/about-us.html">Sobre Embera</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../pages/features.html">Descubre la App</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../pages/contact.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Descarga Embera</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     
-    <div id="content-home">
+    <div class="content-home">
         <h1>Descarga Embera 🌿</h1>
         <p>Comienza hoy tu viaje hacia una mente más tranquila y un corazón más ligero.  
         Descarga Embera gratis y lleva contigo tu espacio de calma dondequiera que vayas.</p>
-        <img src="/img/journal-screenshot.png" alt="Mockup de la app Embera" width="400">
+        <img src="/EMBERA WEBSITE CODERHOUSE/img/journal-screenshot.png" alt="Mockup de la app Embera" width="400">
 
         <div class="cta-card-home">
             <h2>
@@ -31,10 +54,10 @@
             </h2>
             <div class="download-buttons">
                 <a href="#">
-                <img src="/img/apple-icon.svg.png" alt="Disponible en App Store" width="150">
+                <img src="/EMBERA WEBSITE CODERHOUSE/img/apple-icon.svg.png" alt="Disponible en App Store" width="150">
                 </a>
                 <a href="#">
-                <img src="/img/google-icon.svg.png" alt="Disponible en Google Play" width="150">
+                <img src="/EMBERA WEBSITE CODERHOUSE/img/google-icon.svg.png" alt="Disponible en Google Play" width="150">
                 </a>
             </div>
         </div>
@@ -45,5 +68,7 @@
             © 2025 Embera App - Creado por Daniella Colmenares
         </p>
     </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
