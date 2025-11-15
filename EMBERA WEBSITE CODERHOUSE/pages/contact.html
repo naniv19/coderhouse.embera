@@ -41,26 +41,45 @@
             </div>
         </nav>
     </header>
-    <div class="content-home">
-        <h1>
-            Contacto
-        </h1>
-        <p>
-            ¿Tienes alguna pregunta o comentario? ¡Nos encantaría saber de ti! Por favor, completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.
-        </p>   
+    <div class="content-home" id="contact-page">
+        <div id="img-form-content">
+            <img src="../img/PREVIEW.png" alt="Imagen de contacto" width="400">
+        </div>
+        <div id="form-content">
+            <h1 class="contact-title">
+                Contacto
+            </h1>
+            <p class="contact-text">
+                ¿Tienes alguna pregunta o comentario? ¡Nos encantaría saber de ti! Por favor, completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.
+            </p>   
 
-        <form action="#" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
+            <form class="form-contact" action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
 
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
 
-        <button type="submit">Enviar mensaje</button>
-        </form>
+            <button class="button" type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="download-section">
+        <h2>
+             Disponible en
+        </h2>
+        <div class="download-buttons">
+            <a href="#">
+                <img src="/EMBERA WEBSITE CODERHOUSE/img/apple-download.jpeg" alt="Disponible en App Store">
+            </a>
+            <a href="#">
+                <img src="/EMBERA WEBSITE CODERHOUSE/img/google-download.jpeg" alt="Disponible en Google Play">
+            </a>
+        </div>
     </div>
 
     <footer>

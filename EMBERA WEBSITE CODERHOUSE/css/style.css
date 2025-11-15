@@ -9,9 +9,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    background-color: var(--color-bg);
-    color: var(--color-text-main);
-    line-height: 1.6;
   }
 
 /**NAVBAR**/
@@ -34,19 +31,6 @@ body {
 #logo img {
     width: 100px;
     border-radius: 25%;
-}
-
-.cta-buttom {
-    background-color: rgb(255, 178, 149);
-    color: orangered;
-    border-radius: 36px;
-    padding: 16px 24px;
-    font-size: 20px;
-    font-weight: bold;
-    min-width: 150px;
-    text-align: center;
-    margin-right: 24px;
-    text-decoration: none;
 }
 
 
@@ -81,8 +65,6 @@ body {
 #hero-4 a {
     font-size: 14px;
     display: inline-block;
-    background-color: white;
-    color: #333333;
     text-decoration: none;
     padding: 24px;
     margin-top: 36px;
@@ -93,7 +75,7 @@ body {
 /* FOOTER */
 
 footer {
-    background-color: var(--color-accent-light);
+    background-color: #fccbb6;
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
@@ -109,16 +91,16 @@ footer {
     justify-content: space-between;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 5%;
+    border-radius: 24px;
   }
   
-.card-welcome h1 {
-    font-size: 2em;
+.card-welcome h1 {    
     color: #333;
     margin-bottom: 10px;
+    width: 40%;
   }
   
 .card-welcome p {
-    font-size: 1em;
     color: #444;
     line-height: 1.5;
     width: 60%;
@@ -139,10 +121,23 @@ footer {
     display: flex;
     background-color: #f9f9f9;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 5%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 40px;
+    margin: 40px 0;
+    border-radius: 24px;
+  }
+
+.cta-card-home h2 {
+    color: #333;
+    margin-bottom: 10px;
+    width: 40%;
+  }
+
+.cta-card-home p {
+    color: #444;
+    line-height: 1.5;
+    width: 60%;
   }
 
 #cta-home {
@@ -151,22 +146,108 @@ footer {
 
   /*** DOWNLOAD PAGE ***/
 
+.download-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+.download-content p {
+    color: #444;
+    line-height: 1.5;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+
   .download-buttons {
   text-align: center;
-  margin-top: 2rem;
+  justify-content: space-between;
 }
 
-.download-buttons .buttons {
+.download-section {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.download-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/*** FEATURES PAGE ***/
+
+.hero-features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.card-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.features-intro {
+    margin: 80px auto;
+}
+
+.single-card-feature {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+} 
+
+/** CONTACT PAGE ***/
+
+.form-content {
+    align-items: flex-start;
+}
+
+.contact-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-text {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.form-contact {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.button {
+    background-color: rgb(255, 178, 149);
+    color: orangered;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin: 24px auto 0 auto;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-page {
   display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin: 1rem 0;
+  padding-bottom: 80px;
 }
 
-.download-buttons img {
-  transition: transform 0.2s ease;
-}
-
-.download-buttons img:hover {
-  transform: scale(1.05);
-}
+#img-form-content {
+  width: 50%;
+  margin-right: 100px;
+} 
