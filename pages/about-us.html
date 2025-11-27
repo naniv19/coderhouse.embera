@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>About Embera</title>
     <!-- Bootstrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- CSS -->
@@ -13,7 +13,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-propia">
             <div class="container-fluid">
-                <a href="../index.html" id="logo">
+                <a href="../index.html" class="logo">
                     <img src="../img/icon.jpeg" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,13 +25,13 @@
                     <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="../pages/about-us.html">Sobre Embera</a>
+                    <a class="nav-link" href="#">Sobre Embera</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="../pages/features.html">Descubre la App</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="../pages/contact.html">Contacto</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="../pages/download.html">Descarga Embera</a>
@@ -41,50 +41,60 @@
             </div>
         </nav>
     </header>
-    <div class="content-home" id="contact-page">
-        <div id="img-form-content">
-            <img src="../img/PREVIEW.png" alt="Imagen de contacto" width="400">
-        </div>
-        <div id="form-content">
-            <h1 class="contact-title">
-                Contacto
+
+    <section class="content-home">
+        <div class="card-welcome">
+            <h1>
+                Sobre Embera 🌿
             </h1>
-            <p class="contact-text">
-                ¿Tienes alguna pregunta o comentario? ¡Nos encantaría saber de ti! Por favor, completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.
-            </p>   
-
-            <form class="form-contact" action="#" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-
-            <button class="button" type="submit">Enviar mensaje</button>
-            </form>
+            <p>
+                Una app diseñada para acompañarte emocionalmente, con herramientas de journaling, meditaciones y recursos guiados.
+            </p>
         </div>
-    </div>
 
-    <div class="download-section">
-        <h2>
-             Disponible en
-        </h2>
-        <div class="download-buttons">
-            <a href="#">
-                <img src="/EMBERA WEBSITE CODERHOUSE/img/apple-download.jpeg" alt="Disponible en App Store">
-            </a>
-            <a href="#">
-                <img src="/EMBERA WEBSITE CODERHOUSE/img/google-download.jpeg" alt="Disponible en Google Play">
-            </a>
+        <div class="cta-card-home">
+            <h2 id="mision">
+                Nuestra misión
+            </h2>
+            <p>
+                En Embera creemos que el cuidado emocional debe ser accesible, cálido y respetuoso.Queremos ofrecer un espacio donde puedas registrar lo que sientes, reflexionar y encontrar pequeñas prácticas diarias que te ayuden a sentirte mejor.
+            </p>
         </div>
-    </div>
 
-    <footer>
+        <div class="card-welcome">
+            <h2 id="como-funciona">
+                Cómo funciona
+            </h2>
+            <p>
+            Embera combina <em>journaling</em> guiado, audios de meditación breve, y recomendaciones personalizadas según tu estado de ánimo.
+            Todo con un diseño pensado para ser sencillo y seguro.
+            </p>
+        </div>
+
+        <div class="cta-card-home">
+            <h2 id="valores">
+                Nuestros valores
+            </h2>
+            <ul>
+                <li>
+                    Empatía: escuchamos sin juzgar.
+                </li>
+                <li>
+                    Privacidad: tus registros son tuyos.
+                </li>
+                <li>
+                    Simplicidad: herramientas fáciles de usar.
+                </li>
+                <li>
+                    Accesibilidad: diseño pensado para muchas personas.
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+      <footer>
         <p>© 2025 Embera App - Creado por Daniella Colmenares</p>
-    </footer>
+      </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

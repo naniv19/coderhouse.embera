@@ -22,13 +22,13 @@ body {
     top: 0px;
 }
 
-#navbar a {
+.navbar a {
     text-decoration: none;
     color: black;
     padding: 24px;
 }
 
-#logo img {
+.logo img {
     width: 100px;
     border-radius: 25%;
 }
@@ -36,7 +36,7 @@ body {
 
 /**HERO IMAGE**/
 
-#hero-4 {
+.hero-4 {
     background-image: url("../img/1.\ Portada.png");
     height: 100vh;
     background-size: cover;
@@ -46,23 +46,23 @@ body {
     align-items: center;
 }
 
-#hero-4 .hero-content {
+.hero-4 .hero-content {
     text-align: center;
     color: white;
     padding-top: 100px;
 }
 
-#hero-4 h2 {
+.hero-4 h2 {
     font-size: 72px;
     margin-bottom: 36px;
 }
 
-#hero-4 h4 {
+.hero-4 h4 {
     font-size: 24px;
     margin: 0px;
 }
 
-#hero-4 a {
+.hero-4 a {
     font-size: 14px;
     display: inline-block;
     text-decoration: none;
@@ -140,10 +140,6 @@ footer {
     width: 60%;
   }
 
-#cta-home {
-    margin: 0px 50px;
-  }
-
   /*** DOWNLOAD PAGE ***/
 
 .download-content {
@@ -159,7 +155,7 @@ footer {
     max-width: 600px;
   }
 
-  .download-buttons {
+.download-buttons {
   text-align: center;
   justify-content: space-between;
 }
@@ -247,7 +243,7 @@ footer {
   padding-bottom: 80px;
 }
 
-#img-form-content {
+.img-form-content {
   width: 50%;
   margin-right: 100px;
 } 
@@ -289,7 +285,7 @@ footer {
         align-items: center;
     }
 
-    #img-form-content {
+    .img-form-content {
         width: 80%;
         margin-bottom: 50px;
     }
