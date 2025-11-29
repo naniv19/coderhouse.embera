@@ -1,0 +1,21 @@
+@use '../utilities/_variables' as var;
+
+.navbar-propia {
+    background: var.$color-background;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+    .navbar a {
+        text-decoration: none;
+        color: var.$color-text-primary;
+        padding: 24px;
+    }
+
+    .logo img {
+        width: 100px;
+        border-radius: 25%;
+    }
+}

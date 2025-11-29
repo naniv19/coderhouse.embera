@@ -1,0 +1,18 @@
+// BASE
+@use 'partials/base/reset';
+@use 'partials/base/tipografia';
+
+// COMPONENTS
+@use 'partials/components/navbar';
+@use 'partials/components/hero';
+@use 'partials/components/cards';
+@use 'partials/components/buttons';
+@use 'partials/components/hero-2';
+@use 'partials/components/contact';
+@use 'partials/components/grid';
+@use 'partials/components/footer';
+
+// UTILITIES
+@use 'partials/utilities/variables';
+@use 'partials/utilities/mixins';
+@use 'partials/utilities/extend' as e;
