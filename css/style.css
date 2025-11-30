@@ -195,21 +195,6 @@ body {
   gap: 15px;
 }
 
-.button {
-  background-color: rgb(255, 178, 149);
-  color: orangered;
-  border-radius: 36px;
-  padding: 16px 24px;
-  font-size: 20px;
-  font-weight: bold;
-  min-width: 150px;
-  text-align: center;
-  margin: 24px auto 0 auto;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-}
-
 #contact-page {
   display: flex;
   padding-bottom: 80px;
