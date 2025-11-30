@@ -6,7 +6,9 @@
     <title>Features Embera</title>
     <!-- Bootstrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!-- CSS -->
+    <!-- ANIMACIONES -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- CSS -->
     <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -52,7 +54,7 @@
                     Embera es más que una app de bienestar emocional; es tu compañera diaria en el viaje hacia una mente más tranquila y un corazón más ligero. Diseñada con cariño y basada en principios terapéuticos, Embera te ofrece herramientas prácticas para conectar contigo misma, procesar tus emociones y cultivar hábitos de autocuidado.
                 </p>
             </div>
-            <div class="features-img">
+            <div data-aos="fade-left" class="features-img">
                 <img src="../img/Screenshot-iPhone15 Pro Max.png" alt="Mockup de la app Embera">
             </div>
         </div>
@@ -67,7 +69,7 @@
             </p>
         </div>
 
-        <div class="card-features">
+        <div data-aos="flip-right" class="card-features">
             <div class="single-card-feature">
                 <h3>📔 Journaling guiado</h3>
                 <p>Registra tus emociones diariamente con preguntas reflexivas y seguimiento de tu estado de ánimo.</p>
@@ -100,6 +102,11 @@
             © 2025 Embera App - Creado por Daniella Colmenares
         </p>
     </footer>
+    <!-- AOS Animations -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

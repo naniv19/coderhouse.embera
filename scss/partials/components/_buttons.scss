@@ -1,0 +1,41 @@
+@use '../utilities/_variables' as var;
+
+.download-content {
+    text-align: center;
+
+    p {
+        color: var.$color-text-primary;
+        line-height: 1.5;
+        margin: 20px auto;
+        max-width: 600px;
+    }
+}
+
+.download-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.download-section {
+    text-align: center;
+    margin-top: 8%;
+
+    h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+}
+
+.button {
+    background-color: var.$color-main;
+    border-radius: var.$border-radius;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin: 24px auto 0 auto;
+    text-decoration: none;
+    border: none;
+}

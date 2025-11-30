@@ -6,7 +6,9 @@
     <title>About Embera</title>
     <!-- Bootstrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!-- CSS -->
+    <!-- ANIMACIONES -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- CSS -->
     <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -43,16 +45,16 @@
     </header>
 
     <section class="content-home">
-        <div class="card-welcome">
-            <h1>
+        <div data-aos="fade-right" class="card-welcome">
+            <h2>
                 Sobre Embera 🌿
-            </h1>
+            </h2>
             <p>
                 Una app diseñada para acompañarte emocionalmente, con herramientas de journaling, meditaciones y recursos guiados.
             </p>
         </div>
 
-        <div class="cta-card-home">
+        <div data-aos="fade-left" class="cta-card-home">
             <h2 id="mision">
                 Nuestra misión
             </h2>
@@ -61,7 +63,7 @@
             </p>
         </div>
 
-        <div class="card-welcome">
+        <div data-aos="fade-right" class="card-welcome">
             <h2 id="como-funciona">
                 Cómo funciona
             </h2>
@@ -71,7 +73,7 @@
             </p>
         </div>
 
-        <div class="cta-card-home">
+        <div data-aos="fade-left" class="cta-card-home">
             <h2 id="valores">
                 Nuestros valores
             </h2>
@@ -95,6 +97,11 @@
       <footer>
         <p>© 2025 Embera App - Creado por Daniella Colmenares</p>
       </footer>
+    <!-- AOS Animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

@@ -2,13 +2,10 @@
 
 .navbar-propia {
     background: var.$color-background;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: sticky;
     top: 0px;
 
-    .navbar a {
+    .navbar-nav .nav-link {
         text-decoration: none;
         color: var.$color-text-primary;
         padding: 24px;

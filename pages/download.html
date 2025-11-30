@@ -6,7 +6,9 @@
     <title>Download Embera</title>
     <!-- Bootstrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!-- CSS -->
+    <!-- ANIMACIONES -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- CSS -->
     <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -43,14 +45,18 @@
     </header>
     
     <div class="content-home">
-        <div class="download-content">
-            <h1>
-                Descarga Embera 🌿
-            </h1>
-            <p>
-                Comienza hoy tu viaje hacia una mente más tranquila y un corazón más ligero. Descarga Embera gratis y lleva contigo tu espacio de calma dondequiera que vayas.
-            </p>
-            <img src="../img/journal-screenshot.png" alt="Mockup de la app Embera" width="400">
+        <div class="hero-features" class="download-content">
+            <div class="features-content">
+                <h1>
+                    Descarga Embera 🌿
+                </h1>
+                <p>
+                    Comienza hoy tu viaje hacia una mente más tranquila y un corazón más ligero. Descarga Embera gratis y lleva contigo tu espacio de calma donde quiera que vayas.
+                </p>
+            </div>
+                <div class="features-img">
+                <img data-aos="zoom-out" src="../img/journal-screenshot.png" alt="Mockup de la app Embera" width="400">
+            </div>
         </div>
 
         <div class="download-section">
@@ -73,6 +79,11 @@
             © 2025 Embera App - Creado por Daniella Colmenares
         </p>
     </footer>
+    <!-- AOS Animations -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+    </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

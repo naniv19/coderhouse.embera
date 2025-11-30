@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- ANIMACIONES -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -57,7 +59,7 @@
         </div>
     </div>
     <section class="content-home">
-        <div class="card-welcome">
+        <div data-aos="fade-right" class="card-welcome">
             <h1>
                 Bienvenida a Embera 🌿
             </h1>
@@ -67,7 +69,7 @@
             <img src="img/journal-screenshot.png">
         </div>
         
-        <div class="cta-card-home">
+        <div data-aos="fade-left" class="cta-card-home">
             <h2>
                 Descubre una nueva forma de cuidar tu salud emocional
             </h2>
@@ -81,6 +83,11 @@
       <footer>
         <p>© 2025 Embera App - Creado por Daniella Colmenares</p>
       </footer>
+    <!-- AOS Animations -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+    </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

@@ -1,23 +1,25 @@
 @use '../utilities/mixins';
+@use '../utilities/_extend' as extend;
+@use '../utilities/_variables' as var;
 
 .card-welcome {
-    @include mixins.card-welcome;
+    @extend %card-extend;
 
     h1 {    
-        color: #333;
+        color: var.$color-text-primary;
         margin-bottom: 10px;
         width: 40%;
     }
     
     p {
-        color: #444;
+        color: var.$color-text-secondary;
         line-height: 1.5;
         width: 60%;
     }
 
     img {
         width: 30%;
-        border-radius: 25%;
+        border-radius: 8px;
     }
 
     @media (max-width: 768px) {
@@ -43,24 +45,20 @@
 }
 
 .cta-card-home {
-    display: flex;
-    background-color: #f9f9f9;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 5%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    @extend %card-extend;
+    background-color: var.$color-background;
     margin: 40px 0;
-    border-radius: 24px;
+
 
 
     h2 {
-        color: #333;
+        color: var.$color-text-primary;
         margin-bottom: 10px;
         width: 40%;
     }
 
     p {
-        color: #444;
+        color: var.$color-text-secondary;
         line-height: 1.5;
         width: 60%;
     }
