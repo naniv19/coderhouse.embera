@@ -1,0 +1,16 @@
+@use '../utilities/_variables' as var;
+@use '../utilities/_extend' as extend;
+
+.hero-features {
+    @extend %hero2-extend;
+}
+
+.hero-features-second {
+    @extend %hero2-extend;
+    flex-direction: row-reverse;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        text-align: center;
+    }
+}

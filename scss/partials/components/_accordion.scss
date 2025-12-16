@@ -1,0 +1,9 @@
+@use '../utilities/_variables' as var;
+
+.accordion {
+  margin: 20px 4rem;
+
+  .accordion-button {
+    background-color: var.$color-background;
+  }
+}

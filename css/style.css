@@ -69,6 +69,14 @@ body {
   border-radius: 24px;
 }
 
+.hero-features, .hero-features-second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
 .card-welcome h1 {
   color: #333;
   margin-bottom: 10px;
@@ -166,15 +174,18 @@ body {
   border: none;
 }
 
-.hero-features {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  margin-bottom: 40px;
+.hero-features-second {
+  flex-direction: row-reverse;
+}
+@media (max-width: 768px) {
+  .hero-features-second {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .form-content {
+  width: 60%;
   align-items: flex-start;
 }
 
@@ -189,7 +200,6 @@ body {
 }
 
 .form-contact {
-  max-width: 600px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -197,12 +207,14 @@ body {
 }
 
 #contact-page {
+  width: 90%;
   display: flex;
+  align-items: center;
   padding-bottom: 80px;
 }
 
-.img-form-content {
-  width: 50%;
+.img-form-content img {
+  width: 400px;
   margin-right: 100px;
 }
 
@@ -247,6 +259,13 @@ footer {
   padding: 1rem;
   color: #777;
   margin-top: 2rem;
+}
+
+.accordion {
+  margin: 20px 4rem;
+}
+.accordion .accordion-button {
+  background-color: #f9f9f9;
 }
 
 /*# sourceMappingURL=style.css.map */
