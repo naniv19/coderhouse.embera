@@ -1,2 +1,8 @@
 @use '../utilities/_variables' as var;
 
+@mixin flex ($directions, $justify, $align) {
+    display: flex;
+    flex-direction: $directions;
+    justify-content: $justify;
+    align-items: $align;
+}

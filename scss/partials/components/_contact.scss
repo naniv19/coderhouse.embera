@@ -1,3 +1,5 @@
+@use '../utilities/mixins';
+
 .form-content {
     width: 60%;
     align-items: flex-start;
@@ -21,9 +23,8 @@
 }
 
 #contact-page {
+    @include mixins.flex(row, center, center);
     width: 90%;
-    display: flex;
-    align-items: center;
     padding-bottom: 80px;
 }
 

@@ -1,4 +1,5 @@
 @use '../utilities/_variables' as var;
+@use '../utilities/mixins';
 
 .download-content {
     text-align: center;
@@ -12,8 +13,7 @@
 }
 
 .download-buttons {
-    display: flex;
-    justify-content: center;
+    @include mixins.flex(row, center, center);
     gap: 20px;
 }
 
